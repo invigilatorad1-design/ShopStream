@@ -1,6 +1,6 @@
 services:
   fastapi-backend:
-    build:
+    build: ./server
       context: ./backend
       dockerfile: Dockerfile
     ports:
